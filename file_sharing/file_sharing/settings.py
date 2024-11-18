@@ -87,9 +87,9 @@ DATABASES = {
         'ENGINE': 'djongo',
         'NAME': 'fileshare_db',
         'CLIENT': {
-            'host': 'mongodb+srv://saiprasanthdeveloper:5xrzTbbNOZ829uXB@cluster0.38pri.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0',
-            'username': 'saiprasanthdeveloper',
-            'password': '5xrzTbbNOZ829uXB',
+            'host': 'mongodb+srv://username:password@cluster0.38pri.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0',
+            'username': 'username',
+            'password': 'password',
         }
     }
 }
