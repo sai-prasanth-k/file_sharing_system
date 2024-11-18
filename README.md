@@ -16,8 +16,8 @@ Follow these steps to set up the project:
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/yourusername/secure_file_sharing.git
-    cd secure_file_sharing
+    git clone https://github.com/saiprasanth-k/file_sharing_system.git
+    cd file_sharing_system
     ```
 
 2. **Install pipenv** (if not already installed):
@@ -40,7 +40,7 @@ Follow these steps to set up the project:
     pipenv run python manage.py startapp filesharing
     ```
 
-6. **Configure the database** in `secure_file_sharing/settings.py`:
+6. **Configure the database** in `file_sharing_system/settings.py`:
     ```python
     DATABASES = {
         'default': {
