@@ -11,15 +11,3 @@ urlpatterns = [
     path('upload-file/', FileUploadView.as_view(), name='upload-file'),
     path('download-file/<int:pk>/', FileDownloadView.as_view(), name='download-file'),
 ]
-
-# # file_app/urls.py
-
-# from django.urls import path
-# from .views import UserSignUpView, LoginView, FileUploadView, FileDownloadView
-
-# urlpatterns = [
-#     path('signup/', UserSignUpView.as_view(), name='signup'),
-#     path('login/', LoginView.as_view(), name='login'),
-#     path('upload-file/', FileUploadView.as_view(), name='upload-file'),
-#     path('download-file/<int:pk>/', FileDownloadView.as_view(), name='download-file'),
-# ]
