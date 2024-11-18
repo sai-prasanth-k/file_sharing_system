@@ -16,7 +16,7 @@ Follow these steps to set up the project:
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/saiprasanth-k/file_sharing_system.git
+    git clone https://github.com/sai-prasanth-k/file_sharing_system.git
     cd file_sharing_system
     ```
 
